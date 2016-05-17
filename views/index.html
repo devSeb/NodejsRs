@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+</head>
+<body>
+  
+  
+  <script type="text/javascript">
+  
+		window.abcd= [];
+		window.abcd = <%- JSON.stringify(todolist) %> ;
+		console.log("list", list);	
+		var element = null;
+		
+	//var el = document.getElementById("demo");
+	/*
+  for(var i = 0 ; i <= list.length-1 ; i++) {
+  
+  
+	var img = "<p><img src =" + list[i].img + " ></img> </p>";
+	
+	var title = "<h5>" + list[i].title + "</h5>";
+	var summary = "<p>" + list[i].summary + "</p>";
+	
+	let authorName = "";
+	if ( list[i].author ) {
+		authorName = list[i].author;
+	}
+
+	var author = "<p>" + authorName + "</p>";
+	var link = "<a href="+list[i].link+"> lien </a>";
+	//var link = "<iframe src="+list[i].link+"></iframe>";
+	
+	var date = "<p> content =" + list[i].date + "</p>";
+	
+
+	element = "<div><br><center>" + img + title + summary + author + link +"</center><br><br></div>";
+	//console.log("element ok ", element);
+	//element = element + element;
+	
+		
+		var child = document.createElement('div');
+		child.innerHTML = element;
+		child = child.firstChild;
+		document.getElementById("demo").appendChild(child);
+   }   
+   */
+ </script>
+
+  </body>
+</html>
